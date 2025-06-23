@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    background-color: #1F2937;
+    flex-grow: 1;
+}
+
+.section2{
+    text-align:center;
+    flex-grow: 1;
+}
+.section3{
+    background-color: #e7e5eb;
+    flex-grow: 1;
+    padding: 128px;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+}
+
+.left-logo{
+    color: #F9FaF8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    size: 18px;
+}
+
+.content1{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 16px;
+    gap: 100px;
+    margin-bottom: 4%;
+}
+
+.content1-inner{
+    max-width: 500px;
+}
+
+.heading1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 1000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 5px;
+}
+
+.subtext1{
+    color:#E5E7EB;
+    font-size: 18px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+
+img{
+    flex-shrink: 0;
+}
+
+button.b1{
+    border-radius: 8px;
+    border-width: 0px;
+    padding: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color:#3882f6;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    
+}
+
+.heading2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 1000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+    padding: 36px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.box-collection{ 
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 6%;
+}
+
+.info{
+    max-width: 200px;
+}
+
+.subtext{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+}
+
+.p{
+    border: 8px solid;    
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: royalblue;
+}
+
+.quote{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.q2{
+    text-align: right;
+    margin-right: 15%;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 18px;
+}
+
+.bluebox{
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: #3882f6;
+    margin: 100px;
+    display: flex;
+    gap: 150px;
+    border-radius: 12px;
+    padding: 3%;
+    padding-right: 8%;
+    padding-left: 8%; 
+}
+
+.heading3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+.subtext2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button.b2{
+    margin: 12px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color:white;
+    padding: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color:#3882f6;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+}
+
+.bluebox-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.footer{
+    display: flex;
+    background-color:#1F2937;
+    color:white;
+    padding: 2%;
+    font-family:'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+}
